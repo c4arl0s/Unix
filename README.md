@@ -7,15 +7,17 @@ BashCheatSheet
 ln -s /pathDirectorySource /PathDirectoryWhereYouWantTheLink
 ```
 
+# find
+
 ``` bash
 find . -type f -name "*Old*.ppt"
 ```
 
-.       it means that you want to look into the current directory.
--type   it means the type of file you want to find
-f       it me:ans file type
--name   it means that you want to find by name
-""      you have to put "" characteres it you want to use special characters to find an specific file.
+- .       it means that you want to look into the current directory.
+- -type   it means the type of file you want to find
+- f       it me:ans file type
+- -name   it means that you want to find by name
+- ""      you have to put "" characteres it you want to use special characters to find an specific file.
 
 ``` bash
 find . -type f -name "*Old*.ppt"
