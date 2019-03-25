@@ -29,8 +29,8 @@ find . -name "*" -type f
 
 Enable Meta key. Open Terminal > Preferences > Settings > Keyboard, and enable Use Option as meta key.
 
-ctrl-A: Go to beginning of the line.
-ctrl-E:	Go to the end of the line.
+- ctrl-A: Go to beginning of the line.
+- ctrl-E:	Go to the end of the line.
 
 enable Metadata Key, then you can use:
 alt-f: Go forward one word
@@ -40,6 +40,8 @@ alt-b: Go backwards one word	-> Very useful
 
 substitute white space to -  
 
+``` bash
 tr ' ' '-'
+```
 
 
