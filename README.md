@@ -78,11 +78,11 @@ tr ' ' '-'
 - Links reference abstract filenames/directories and NOT physical locations. They are given their own inode
 
 Example 1:
-```` bash
+```bash
 $ ln -s /Users/carlossantiagocruz/Documents/BASH-PROGRAMMING/DICT-EN-ES/trad3.sh /usr/local/bin/trad3
 ```
 Example 2:
-```` bash
+```bash
 ln -s /Users/carlossantiagocruz/Documents/BASH-PROGRAMMING/MOVER-PDF-2-DIRECTORIO/mover-pdf2directorio.sh /usr/local/bin/mover-pdf2directorio1.0
 ```
 
