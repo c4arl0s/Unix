@@ -1,6 +1,21 @@
 # BashCheatSheet
 BashCheatSheet
 
+1. [soft link()
+2. [find]()
+3. [Shorcuts to quickly move the cursor around the current line]()
+4. [tr: The tr utility copies the standard input to the standard output with substitution or deletion of selected characters.]()
+5. [The Difference Between Soft and Hard Links]()
+6. [Symbolic (soft) links]()
+
+# 1. [soft link()
+# 2. [find]()
+# 3. [Shorcuts to quickly move the cursor around the current line]()
+# 4. [tr: The tr utility copies the standard input to the standard output with substitution or deletion of selected characters.]()
+# 5. [The Difference Between Soft and Hard Links]()
+# 6. [Symbolic (soft) links]()
+
+
 # soft link
 
 ``` bash
