@@ -8,15 +8,9 @@ BashCheatSheet
 5. [The Difference Between Soft and Hard Links](https://github.com/c4arl0s/BashCheatSheet#5-the-difference-between-soft-and-hard-links)
 6. [Symbolic (soft) links](https://github.com/c4arl0s/BashCheatSheet#6-symbolic-soft-links)
 
+
+
 # 1. [soft link](https://github.com/c4arl0s/BashCheatSheet#bashcheatsheet)
-# 2. [find](https://github.com/c4arl0s/BashCheatSheet#bashcheatsheet)
-# 3. [Shorcuts to quickly move the cursor around the current line](https://github.com/c4arl0s/BashCheatSheet#bashcheatsheet)
-# 4. [tr: The tr utility copies the standard input to the standard output with substitution or deletion of selected characters.](https://github.com/c4arl0s/BashCheatSheet#bashcheatsheet)
-# 5. [The Difference Between Soft and Hard Links](https://github.com/c4arl0s/BashCheatSheet#bashcheatsheet)
-# 6. [Symbolic (soft) links](https://github.com/c4arl0s/BashCheatSheet#bashcheatsheet)
-
-
-# soft link
 
 ``` bash
 ln -s /pathDirectorySource /PathDirectoryWhereYouWantTheLink
@@ -40,7 +34,7 @@ find . -name *NORMA* -type d
 find . -name "*" -type f
 ```
 
-# Shorcuts to quickly move the cursor around the current line
+# 3. [Shorcuts to quickly move the cursor around the current line](https://github.com/c4arl0s/BashCheatSheet#bashcheatsheet)
 
 Enable Meta key. Open Terminal > Preferences > Settings > Keyboard, and enable Use Option as meta key.
 
@@ -52,7 +46,7 @@ enable Metadata Key, then you can use:
 - alt-f: Go forward one word
 - alt-b: Go backwards one word	-> Very useful
 
-# tr: The tr utility copies the standard input to the standard output with substitution or deletion of selected characters.
+# 4. [tr: The tr utility copies the standard input to the standard output with substitution or deletion of selected characters.](https://github.com/c4arl0s/BashCheatSheet#bashcheatsheet)
 
 substitute white space to -  
 
@@ -60,7 +54,7 @@ substitute white space to -
 tr ' ' '-'
 ```
 
-# The Difference Between Soft and Hard Links
+# 5. [The Difference Between Soft and Hard Links](https://github.com/c4arl0s/BashCheatSheet#bashcheatsheet)
 
 ## Hard links
 
@@ -69,7 +63,7 @@ tr ' ' '-'
 - Links will reference a file even if it is moved
 - Links reference inode/physical locations on the disk
 
-# Symbolic (soft) links
+# 6. [Symbolic (soft) links](https://github.com/c4arl0s/BashCheatSheet#bashcheatsheet)
 
 - Can link to directories
 - Can reference a file/folder on a different hard disk/volume
