@@ -16,7 +16,7 @@ BashCheatSheet
 ln -s /pathDirectorySource /PathDirectoryWhereYouWantTheLink
 ```
 
-# find
+# 2. [find](https://github.com/c4arl0s/BashCheatSheet#bashcheatsheet)
 
 ``` bash
 find . -type f -name "*Old*.ppt"
