@@ -1,19 +1,19 @@
 # BashCheatSheet
 BashCheatSheet
 
-1. [soft link()
-2. [find]()
-3. [Shorcuts to quickly move the cursor around the current line]()
-4. [tr: The tr utility copies the standard input to the standard output with substitution or deletion of selected characters.]()
-5. [The Difference Between Soft and Hard Links]()
-6. [Symbolic (soft) links]()
+1. [soft link](https://github.com/c4arl0s/BashCheatSheet#1-soft-link)
+2. [find](https://github.com/c4arl0s/BashCheatSheet#2-find)
+3. [Shorcuts to quickly move the cursor around the current line](https://github.com/c4arl0s/BashCheatSheet#3-shorcuts-to-quickly-move-the-cursor-around-the-current-line)
+4. [tr: The tr utility copies the standard input to the standard output with substitution or deletion of selected characters.](https://github.com/c4arl0s/BashCheatSheet#4-tr-the-tr-utility-copies-the-standard-input-to-the-standard-output-with-substitution-or-deletion-of-selected-characters)
+5. [The Difference Between Soft and Hard Links](https://github.com/c4arl0s/BashCheatSheet#5-the-difference-between-soft-and-hard-links)
+6. [Symbolic (soft) links](https://github.com/c4arl0s/BashCheatSheet#6-symbolic-soft-links)
 
-# 1. [soft link()
-# 2. [find]()
-# 3. [Shorcuts to quickly move the cursor around the current line]()
-# 4. [tr: The tr utility copies the standard input to the standard output with substitution or deletion of selected characters.]()
-# 5. [The Difference Between Soft and Hard Links]()
-# 6. [Symbolic (soft) links]()
+# 1. [soft link](https://github.com/c4arl0s/BashCheatSheet#bashcheatsheet)
+# 2. [find](https://github.com/c4arl0s/BashCheatSheet#bashcheatsheet)
+# 3. [Shorcuts to quickly move the cursor around the current line](https://github.com/c4arl0s/BashCheatSheet#bashcheatsheet)
+# 4. [tr: The tr utility copies the standard input to the standard output with substitution or deletion of selected characters.](https://github.com/c4arl0s/BashCheatSheet#bashcheatsheet)
+# 5. [The Difference Between Soft and Hard Links](https://github.com/c4arl0s/BashCheatSheet#bashcheatsheet)
+# 6. [Symbolic (soft) links](https://github.com/c4arl0s/BashCheatSheet#bashcheatsheet)
 
 
 # soft link
