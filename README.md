@@ -56,7 +56,7 @@ tr ' ' '-'
 
 # 5. [The Difference Between Soft and Hard Links](https://github.com/c4arl0s/BashCheatSheet#bashcheatsheet)
 
-## Hard links
+# Hard links
 
 - Only link to a file not a directory
 - Can not reference a file on a different disk/volume
@@ -80,3 +80,12 @@ Example 2:
 ln -s /Users/carlossantiagocruz/Documents/BASH-PROGRAMMING/MOVER-PDF-2-DIRECTORIO/mover-pdf2directorio.sh /usr/local/bin/mover-pdf2directorio1.0
 ```
 
+# 7. [Save your scripts on...]()
+
+Create a bin directory on your home directory
+
+```console
+mkdir bin
+```
+
+<img width="924" alt="Screen Shot 2022-09-01 at 12 26 05 a m" src="https://user-images.githubusercontent.com/24994818/187838046-cc5a23cd-8d17-4a93-bca7-815da54251ea.png">
