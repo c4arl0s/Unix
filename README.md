@@ -1,5 +1,4 @@
 # BashCheatSheet
-BashCheatSheet
 
 1. [soft link](https://github.com/c4arl0s/BashCheatSheet#1-soft-link)
 2. [find](https://github.com/c4arl0s/BashCheatSheet#2-find)
@@ -7,7 +6,11 @@ BashCheatSheet
 4. [tr: The tr utility copies the standard input to the standard output with substitution or deletion of selected characters.](https://github.com/c4arl0s/BashCheatSheet#4-tr-the-tr-utility-copies-the-standard-input-to-the-standard-output-with-substitution-or-deletion-of-selected-characters)
 5. [The Difference Between Soft and Hard Links](https://github.com/c4arl0s/BashCheatSheet#5-the-difference-between-soft-and-hard-links)
 6. [Symbolic (soft) links](https://github.com/c4arl0s/BashCheatSheet#6-symbolic-soft-links)
-
+7. [Save your scripts on...]()
+8. [For Loop with C-style syntax]()
+9. [Using For Loop to List Iterate Over Numbers]()
+10. [Array Iteration]()
+11. [How to use sed to replace strings in macos]()
 
 
 # 1. [soft link](https://github.com/c4arl0s/BashCheatSheet#bashcheatsheet)
@@ -143,6 +146,12 @@ for y in "${a[@]}"; do echo "$y"; done
 2
 3
 4
+```
+
+# 11. How to use sed to replace strings in macos
+
+```console
+sed -e "s/,/./" -i '' file.txt
 ```
 
 
