@@ -11,6 +11,7 @@
 9. [Using For Loop to List Iterate Over Numbers]()
 10. [Array Iteration]()
 11. [How to use sed to replace strings in macos]()
+11. [Create an hyperlink command line]()
 
 
 # 1. [soft link](https://github.com/c4arl0s/BashCheatSheet#bashcheatsheet)
@@ -153,5 +154,22 @@ for y in "${a[@]}"; do echo "$y"; done
 ```console
 sed -e "s/,/./" -i '' file.txt
 ```
+
+
+# 12. Create an hyperlink command line
+
+Using `echo`
+
+```bash
+echo -e '\e]8;;http://example.com\aThis is a hyperlink\e]8;;\a' 
+```
+
+Using printf
+
+
+```bash
+printf '\e]8;;http://example.com\e\\This is a link\e]8;;\e\\\n'
+```
+
 
 
