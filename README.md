@@ -171,5 +171,34 @@ Using printf
 printf '\e]8;;http://example.com\e\\This is a link\e]8;;\e\\\n'
 ```
 
+# Redirect Output and Errors to `/dev/null`
 
+The following files are used by Unix process.
 
+```console
+ls -l /dev/{stdout,stdin,stderr}
+```
+
+COnsole output:
+
+```console
+lr-xr-xr-x  1 root  wheel  0 Nov 26 16:33 /dev/stdout -> fd/1
+lr-xr-xr-x  1 root  wheel  0 Nov 26 16:33 /dev/stdin -> fd/0
+lr-xr-xr-x  1 root  wheel  0 Nov 26 16:33 /dev/stderr -> fd/2
+```
+
+1. `/dev/stdin` ( 0 ) – Standard Input (usually keyboard or file). When a command opens `/dev/stdin`, it can read input from the user.
+2. `/dev/stdout` ( 1 ) – Standard Output (usually screen). When a command writes to `/dev/stdout`, its output is displayed on the screen.
+3. `/dev/stderr` ( 2 ) – Standard Error (usually screen). When a program or command writes to `/dev/stderr`, its error messages are displayed on the screen.
+
+# What is a `/dev/null` file in Unix?
+
+`/dev/null` discards data in Unix systems. Used to suppress program output.
+
+```console
+command1 >/dev/null         # redirects standard output to /dev/null
+```
+
+```console
+command1 >/dev/null 2>&1    # redirects standard output to /dev/null, 2>&1 operator redirects standard error to the same location as standard output. 
+```
