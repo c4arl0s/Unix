@@ -100,12 +100,19 @@ lr-xr-xr-x  1 root  wheel  0 Nov 26 16:33 /dev/stderr -> fd/2
 
 # What is a `/dev/null` file in Unix?
 
-`/dev/null` discards data in Unix systems. Used to suppress program output.
+/dev/null is a special file in Unix/Linux systems that acts as a "black hole" or "data sink". Here are its key characteristics:
 
-```console
-command1 >/dev/null         # redirects standard output to /dev/null
-```
+Purpose:
 
-```console
-command1 >/dev/null 2>&1    # redirects standard output to /dev/null, 2>&1 operator redirects standard error to the same location as standard output. 
-```
+- Discards any data written to it
+- Always appears empty when read
+- Never stores any data
+
+# Discard standard output
+command > /dev/null
+
+# Discard error output
+command 2> /dev/null
+
+# Discard both outputs
+command > /dev/null 2>&1
